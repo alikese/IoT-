@@ -34,3 +34,4 @@ class Sobolev(nn.Module):
 		loss = F.mse_loss(norm_grad_s, norm_grad_t.detach())
 
 		return loss
+
